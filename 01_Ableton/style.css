@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Futura;
+    src: url(../00_assets/futura-pt-medium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Futura";
+    font-size: 16px;
+    line-height: 1.5rem;
+    font-weight: normal;
+    font-style: normal;
+    overflow-x: hidden;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100vw;
+    color: black;
+    background-color: white;
+}
+
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    padding-top: 1.25rem;
+}
+
+.primary-nav {
+    height: 50px;
+    display: flex;
+}
+
+.nav-logo {
+    display: block;
+    width: 3.75em;
+    height: 1.75rem;
+    position: absolute;
+    top: 1.25rem;
+    margin-left: 2.5rem;
+    z-index: 9;
+}
+
+.nav-menu {
+}
+
+.pri-nav-list {
+    width: 100vw;
+    height: 1.75rem;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2.5rem 0 8.75rem;
+    margin: 0 0 20px;
+}
+
+.pri-nav-item {
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+.pri-nav-item:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.pri-nav-item:last-child {
+    padding-right: 0;
+    margin: 0 0 0 5px;
+    color: black;
+    font-size: 0.875rem;
+}
+
+.pri-nav-item-right {
+    margin-left: auto;
+    align-content: flex-end;
+    color: #0000ff;
+}
+
+.pri-nav-more-btn {
+    border: inherit;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: 1em;
+    color: #ff764d;
+}
+
+.nav-separator {
+    width: 100vw;
+    height: 2px;
+    background-color: #f3f3f3;
+    /* border-bottom: 2px solid #f3f3f3; */
+}
+
+.secondary-nav {
+    height: 4.25rem;
+}
+
+.sec-nav-list {
+    display: flex;
+    height: 100%;
+    padding: 0 2.5rem;
+    align-items: center;
+}
+
+.sec-nav-item {
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+.sec-nav-item:first-child {
+    padding-left: 0;
+    margin-left: 0;
+    color: #ff764d;
+}
