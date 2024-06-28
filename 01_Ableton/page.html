@@ -1,72 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ableton</title>
-        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-        <link
-            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-            rel="stylesheet" />
-        <link rel="stylesheet" href="./style.css" />
-    </head>
 
-    <body>
-        <div class="container">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ableton</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./screen.css">
+</head>
 
-            <!-- navbar goes here -->
-            <header class="navbar">
-                <nav class="primary-nav">
-                    <a href="#">
-                        <svg
-                            role="img"
-                            class="nav-logo"
-                            fill="currentColor"
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="45"
-                            height="21"
-                            viewBox="0 0 45 21">
-                            <path
-                                d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path>
-                        </svg>
-                    </a>
-                    <button class="nav-menu" style="display: none">Menu</button>
-                    <ul class="pri-nav-list">
-                        <li class="pri-nav-item"><a href="#">Live</a></li>
-                        <li class="pri-nav-item"><a href="#">Push</a></li>
-                        <li class="pri-nav-item"><a href="#">Note</a></li>
-                        <li class="pri-nav-item"><a href="#">Link</a></li>
-                        <li class="pri-nav-item"><a href="#">Shop</a></li>
-                        <li class="pri-nav-item"><a href="#">Packs</a></li>
-                        <li class="pri-nav-item"><a href="#">Help</a></li>
-                        <li class="pri-nav-item">
-                            <button class="pri-nav-more-btn">
-                                <span>More +</span>
-                            </button>
-                        </li>
-                        <li class="pri-nav-item pri-nav-item-right">
-                            <a href="#">Try Live 12 for free</a>
-                        </li>
-                        <li class="pri-nav-item item-right">
-                            <a href="#">Log in or register</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="nav-separator"></div>
-                <nav class="secondary-nav">
-                    <ul class="sec-nav-list">
-                        <li class="sec-nav-item"><a href="#">About</a></li>
-                        <li class="sec-nav-item"><a href="#">Jobs</a></li>
-                        <li class="sec-nav-item">
-                            <a href="#">Apprenticeships</a>
-                        </li>
-                    </ul>
-                </nav>
-            </header>
-            <!-- navbar ends here -->
+<body>
+    <div class="container">
 
-            
+        <!-- navbar goes here -->
+        <header class="navbar">
+            <nav class="primary-nav">
+                <a class="nav-logo" href="#">
+                    <img class="nav-logo-img" src="./assets/logo_black.svg" alt="logo">
+                </a>
+                <button class="nav-menu-btn">Menu<i class='bx bxs-down-arrow'></i></button>
+                <ul class="pri-nav-list">
+                    <li class="pri-nav-item"><a href="#">Live</a></li>
+                    <li class="pri-nav-item"><a href="#">Push</a></li>
+                    <li class="pri-nav-item"><a href="#">Note</a></li>
+                    <li class="pri-nav-item"><a href="#">Link</a></li>
+                    <li class="pri-nav-item"><a href="#">Shop</a></li>
+                    <li class="pri-nav-item"><a href="#">Packs</a></li>
+                    <li class="pri-nav-item"><a href="#">Help</a></li>
+                    <li class="pri-nav-item">
+                        <button class="pri-nav-more-btn">
+                            More <span>+</span>
+                        </button>
+                    </li>
+                    <li class="pri-nav-item">
+                        <a href="#">Try Live 12 for free</a>
+                    </li>
+                    <li class="pri-nav-item">
+                        <a href="#">Log in or register</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="nav-separator"></div>
+            <nav class="secondary-nav">
+                <ul class="sec-nav-list">
+                    <li class="sec-nav-item"><a href="#">About</a></li>
+                    <li class="sec-nav-item"><a href="#">Jobs</a></li>
+                    <li class="sec-nav-item">
+                        <a href="#">Apprenticeships</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- navbar ends here -->
 
-        </div>
-    </body>
+        <!-- content goes here -->
+        <main class="content">
+            <section class="content-section">
+                <div class="content-image">
+                    <h1>Ableton</h1>
+                </div>
+            </section>
+            <section class="content-section">
+                <div class="content-text">
+                    <h2>We make <a href="#">Live</a>, <a href="#">Push</a>, <a href="#">Note</a> and <a
+                            href="#">Link</a> — unique software and hardware for music creation and performance. With
+                        these products, our community of users creates amazing things.</h2>
+                    <p>
+                        Ableton was founded in 1999 and released the first version of Live in 2001. Our products are
+                        used by a community of dedicated musicians, sound designers, and artists from across the world.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <!-- content ends here -->
+
+    </div>
+</body>
+
 </html>
