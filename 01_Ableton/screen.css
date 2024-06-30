@@ -39,12 +39,18 @@
         margin-left: 5px;
         padding-right: 0;
         font-size: 14px;
+        height: 20px;
+        text-align: center;
     }
 
     .pri-nav-more-btn {
         font-size: 1rem;
-        height: 24px;
         color: #ff764d;
+    }
+
+    .header-img {
+        margin:  0 85px 85px;
+        width: calc(100vw - 170px);
     }
 }
 
@@ -96,5 +102,19 @@
 
     .sec-nav-item:first-child {
         margin-left: 0;
+    }
+
+    .header-img {
+        margin:  8px 106px 106px;
+        width: calc(100vw - 212px);
+    }
+}
+
+
+@media only screen and (min-width: 1440px) {
+
+    .header-img {
+        margin: 8px 120px 120px;
+        width: calc(100vw - 240px);
     }
 }

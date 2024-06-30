@@ -115,3 +115,23 @@ button {
     padding-left: 0;
     color: #ff764d;
 }
+
+.header-img {
+    background-image: url(./assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: calc(100vh - 120px);
+    width: calc(100vw - 128px);
+    margin:  0 64px 64px;
+    display: flex;
+    align-items: center;
+}
+
+.header-text {
+    font-family: Font-1;
+    font-size: 140px;
+    color: #FD5948;
+    width: calc(100vw - 130px);
+    text-align: center;
+}
